@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 20px;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+input {
+    width: 272px;
+    height: 35px;
+    border-radius: 2%; 
+    border: 0;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    color:#2e3652;
+    margin: 0 3px 8px 3px;
+
+}
+
+::-webkit-input-placeholder {
+    text-align: right;
+    color: #3B405D
+}
+
+#mainContainer {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+}
+
+
+#customerContainer {
+    height: 257px;
+    width: 321px;
+    background-color: #D80000;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center
+
+
+
+}
+
+#nnCustomerContainer {
+    height: 257px;
+    width: 321px;
+    background-color:#C00000;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+    position: relative;
+
+
+}
+
+#space {
+    height: 1%
+}
+
+#btn1 {
+    background-color:#FCFCFD;
+    color: #DE1C3F;
+    width: 142px;
+    height: 32px;
+    border-radius: 5%;
+    border: 0;
+    margin: 16px 0 15px 0;
+}
+
+#forgotPasswrd {
+    font-family: 'Arimo', sans-serif;
+    line-height: 14px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF
+
+}
+
+
+#newClient {
+    background-color: #FCFCFD;
+    margin-top: 40px;
+    color:#2F3453;
+    width: 272px;
+    border: 0;
+    padding: 20px;
+    border-radius: 2%;
+    display: inline-block;
+    font-size: 15px
+    
+} 
+
+#joinHa {
+    
+    font-size: 14px;
+    margin-top: 70px;
+    color: #FFFFFF;
+    font-family: 'Arimo', sans-serif;
+}
+
+#logo {
+    height: 25px;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, white);
+}
+
+    
