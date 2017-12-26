@@ -2,10 +2,9 @@
     box-sizing: border-box
 }
 
-h2 {
+h3 {
     text-align: center;
     color: #fff;
-    font-size: 24px;
     font-weight: normal;
     padding-top: 20px;
     font-family: 'Arimo', sans-serif;
@@ -18,15 +17,16 @@ input {
     border-radius: 2%; 
     border: 0;
     font-family: 'Arimo', sans-serif;
-    font-size: 18px;
     color:#2e3652;
     margin: 0 3px 8px 3px;
 
 }
 
+
 ::-webkit-input-placeholder {
     text-align: right;
-    color: #3B405D
+    color: #3B405D;
+    font-size: 14px;
 }
 
 #mainContainer {
@@ -38,7 +38,7 @@ input {
 
 
 #customerContainer {
-    height: 257px;
+    height: 260px;
     width: 321px;
     background-color: #D80000;
     border-top-left-radius: 25px;
@@ -50,7 +50,7 @@ input {
 }
 
 #nnCustomerContainer {
-    height: 257px;
+    height: 170px;
     width: 321px;
     background-color:#C00000;
     border-bottom-left-radius: 25px;
@@ -88,21 +88,22 @@ input {
 
 #newClient {
     background-color: #FCFCFD;
-    margin-top: 40px;
+    margin-top: 30px;
     color:#2F3453;
     width: 272px;
     border: 0;
     padding: 20px;
     border-radius: 2%;
     display: inline-block;
-    font-size: 15px
+    font-size: 15px;
+    text-align: center
     
 } 
 
 #joinHa {
     
     font-size: 14px;
-    margin-top: 70px;
+    margin-top: 10px;
     color: #FFFFFF;
     font-family: 'Arimo', sans-serif;
 }
@@ -110,6 +111,7 @@ input {
 #logo {
     height: 25px;
     -webkit-box-reflect: below 0 linear-gradient(transparent, white);
+    vertical-align: middle
 }
 
     
